@@ -1,0 +1,16 @@
+.Home{
+    position: absolute;
+    z-index: 1;
+    color: white;
+
+    p{
+        position: fixed;
+        font-family: Helvetica;
+        animation: FadeIn 1s;
+        font-weight: 600;
+        margin-top:25vh;
+        margin-left: 5vw;
+        font-size: 18vw;
+        user-select: none
+    }
+}

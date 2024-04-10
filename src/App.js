@@ -1,5 +1,7 @@
 import HALO from 'vanta/src/vanta.halo'
-import {Routes, Route} from 'react-router-dom'
+import Home from '././Assets/Components/Home'
+import Contact from '././Assets/Components/Contact'
+import { Route , Routes }  from 'react-router-dom'
 import './App.css';
 import { useEffect } from 'react';
 
@@ -20,13 +22,13 @@ function App() {
 
   return (
     <div className="App">
-      <div className="bg" id='vanta'> 
-      </div>
       <Routes>
+          <Route path="/">
           <Route index element={<Home/>}></Route>
-          <Route path='about' index element={<About/>}></Route>
           <Route path='contact' index element={<Contact/>}></Route>
+          </Route>
       </Routes>
+      <div className='bg' id='vanta'></div>
     </div>
   );
 }
