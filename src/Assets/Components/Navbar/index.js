@@ -1,4 +1,5 @@
 import './index.scss'
+import Home from '../Home'
 
 const Navbar = () => {
     return(
@@ -9,7 +10,7 @@ const Navbar = () => {
             <i class="fas fa-bars"></i>
         </label>
         <ul>
-            <li><a class="active" href="#">Home</a></li>
+            <li><a class="active" href='#'>Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">Contact</a></li>

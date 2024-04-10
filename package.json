@@ -16,6 +16,7 @@
     "react-scripts": "5.0.1",
     "sass": "^1.74.1",
     "scss": "^0.2.4",
+    "typewriter-effect": "^2.21.0",
     "vanta": "^0.5.24",
     "web-vitals": "^2.1.4"
   },

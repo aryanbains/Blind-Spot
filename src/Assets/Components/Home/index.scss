@@ -3,14 +3,45 @@
     z-index: 1;
     color: white;
 
-    p{
-        position: fixed;
+    .Main{
+        position: relative;
         font-family: Helvetica;
         animation: FadeIn 1s;
         font-weight: 600;
         margin-top:25vh;
         margin-left: 5vw;
         font-size: 18vw;
-        user-select: none
+        user-select: none;
+
+        @media screen  and (max-width:768px){
+            margin-top:45vh;
+            padding-right: 4vw;
+            margin-left: 4vw;
+        }
+    }
+
+    .Hero{
+        display: flex;
+    }
+
+    .About-main{
+        position: relative;
+        font-family: Helvetica;
+        animation: FadeIn 1s;
+        font-weight: 600;
+        margin-top: -3vh;
+        margin-left: 5vw;
+        font-size: 6vw;
+        user-select: none;
+    }
+
+    .About{
+        margin-top: -6vh;
+        width: 50%;
+        font-family: Helvetica;
+        margin-left: 5vw;
+        text-align: justify;
+        font-size: 2vw;
     }
 }
+
