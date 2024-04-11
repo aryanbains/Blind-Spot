@@ -18,8 +18,8 @@ const Home = () =>{
         </div>
 
         <div data-aos="fade-right"
-     data-aos-offset="200"
-     data-aos-easing="ease-in-sine" className="About-main-div">
+        data-aos-offset="200"
+        data-aos-easing="ease-in-sine" className="About-main-div">
 
         <p className="About-main">About Us</p>
         <p className='About'>Our website offers a range of innovative solutions tailored to meet the diverse needs of blind users. Whether you're looking for motorized blinds 
