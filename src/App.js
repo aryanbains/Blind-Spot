@@ -1,6 +1,7 @@
 import HALO from 'vanta/src/vanta.halo'
-import Home from '././Assets/Components/Home'
-import Contact from '././Assets/Components/Contact'
+import DOTS from 'vanta/src/vanta.dots'
+import Home from '../src/Components/Home'
+import Contact from '../src/Components/Contact'
 import { Route , Routes }  from 'react-router-dom'
 import './App.css';
 import { useEffect } from 'react';
@@ -20,7 +21,25 @@ function App() {
     })
   }, [])
 
+  useEffect(()=> {
+    DOTS({
+      el: "#vanta1",
+      mouseControls: true,
+      touchControls: true,
+      gyroControls: false,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0xf120ff,
+      backgroundColor: 0x50505,
+      spacing: 32.00,
+      showLines: false
+    })
+  }, [])
+
   return (
+    <>
     <div className="App">
       <Routes>
           <Route path="/">
@@ -28,8 +47,9 @@ function App() {
           <Route path='contact' index element={<Contact/>}></Route>
           </Route>
       </Routes>
-      <div className='bg' id='vanta'></div>
-    </div>
+      <div className='bg2' id='vanta1'></div>
+      </div>
+    </>
   );
 }
 
