@@ -2,6 +2,9 @@ import './index.scss'
 import Footer from '../Footer'
 import Navbar from '../Navbar'
 import Type from '../Type'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 
 const Home = () =>{
     return(
@@ -9,10 +12,15 @@ const Home = () =>{
     <Navbar></Navbar>
     <div className='Home'>
         <div className='Hero'>
-        <p className='Main'>Blind Spot</p>
+        <p data-aos="zoom-in" data-aos-delay="50" data-aos-duration="1000"
+        data-aos-easing="ease-in-out" className='Main'>Blind Spot</p>
         <Type></Type>
         </div>
-        <div className="About-main-div">
+
+        <div data-aos="fade-right"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine" className="About-main-div">
+
         <p className="About-main">About Us</p>
         <p className='About'>Our website offers a range of innovative solutions tailored to meet the diverse needs of blind users. Whether you're looking for motorized blinds 
         for added convenience, child-safe cordless options, or easy-to-install smart blinds that can be controlled with a tap on your smartphone.<br></br><br></br>
@@ -22,7 +30,9 @@ const Home = () =>{
 
         <br></br>
 
-        <div className="Mission-main-div">
+        <div data-aos="fade-left"
+     data-aos-offset="200"
+     data-aos-easing="ease-in-sine" className="Mission-main-div">
         <p className="Mission-main">Our Mission</p>
         <p className='Mission'>"At SafeShade, our mission is to empower individuals with innovative solutions that enhance the safety and convenience of managing 
         blinds in their homes. We are committed to providing a comprehensive platform where users can access a diverse range of products, expert advice, and resources 

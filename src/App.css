@@ -12,6 +12,10 @@
   }
 }
 
+@font-face {
+  font-family: "Stacker";
+  src: url("../src/Assets/fonts/stacker.otf");
+}
 
 .App-header {
   background-color: #1f1f1f;

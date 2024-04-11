@@ -1,8 +1,10 @@
 .TypeEffect {
-    margin-left: 74vw;
-    margin-top: 60vh;
+    margin-left: 70vw;
+    margin-top: 55vh;
     position: absolute;
-    color: #f1f1f1;
+    color: rgba(240, 255, 255, 0);
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(253, 253, 253);
     padding-bottom: 4rem;
     font-weight: 700;
     font-size: 4vw;
@@ -10,7 +12,7 @@
     letter-spacing: 0.6px;
 
     @media screen and (max-width:768px) {
-      margin-top: 53vh;
-      margin-left: 71vw;
+      margin-top: 52vh;
+      margin-left: 68vw;
     }
   }

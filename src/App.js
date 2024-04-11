@@ -2,9 +2,12 @@ import HALO from 'vanta/src/vanta.halo'
 import DOTS from 'vanta/src/vanta.dots'
 import Home from '../src/Components/Home'
 import Contact from '../src/Components/Contact'
+import About from '../src/Components/About'
+import Login from '../src/Components/Login'
 import { Route , Routes }  from 'react-router-dom'
 import './App.css';
 import { useEffect } from 'react';
+import Product from './Components/Products'
 
 function App() {
 
@@ -43,8 +46,11 @@ function App() {
     <div className="App">
       <Routes>
           <Route path="/">
-          <Route index element={<Home/>}></Route>
+          <Route path='home'  index element={<Home/>}></Route>
+          <Route path='about' index element={<About/>}></Route>
           <Route path='contact' index element={<Contact/>}></Route>
+          <Route path='product' index element={<Product/>}></Route>
+          <Route path='login' index element={<Login/>}></Route>
           </Route>
       </Routes>
       <div className='bg2' id='vanta1'></div>

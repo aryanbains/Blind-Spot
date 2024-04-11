@@ -8,19 +8,20 @@
     overflow-x: hidden;
 
     .Main{
+        color: rgba(223, 61, 255, 0.781);
         position: relative;
-        font-family: Helvetica;
+        font-family: Stacker;
         animation: FadeIn 1s;
-        font-weight: 600;
+        font-weight: 400;
         margin-top:25vh;
         margin-left: 5vw;
-        font-size: 18vw;
+        font-size: 12vw;
         user-select: none;
 
         @media screen  and (max-width:768px){
             margin-top:45vh;
             padding-right: 4vw;
-            margin-left: 4vw;
+            margin-left: 3vw;
         }
     }
 
@@ -40,6 +41,7 @@
         -webkit-backdrop-filter: blur( 4.5px );
         border-radius: 10px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );*/
+        margin-top: 30vh;
         margin-bottom: 10vh;
     }
 

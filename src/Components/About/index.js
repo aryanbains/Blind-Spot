@@ -1,10 +1,11 @@
 import './index.scss'
 
-const Contact = () => {
+const About = () => {
     return(
         <>
+        Hello
         </>
     )
 }
 
-export default Contact;
+export default About
