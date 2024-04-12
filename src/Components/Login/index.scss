@@ -18,12 +18,9 @@
 
     @media screen and (max-width:768px) {
         margin-top: 10vh;
-        margin-left: 23vw;
+        margin-left: 19vw;
+        font-size: 6vw;
     }
-}
-
-body {
-    font-size: 16px;
 }
 
 * {
@@ -110,6 +107,11 @@ img.apple {
     grid-template-columns: 4fr 3fr;
     width: 1200px;
     margin-left: 50vw;
+
+    @media screen and (max-width:768px) {
+        width: 190vw;
+        margin-left: 15vw;
+    }
 }
 
 
@@ -142,8 +144,8 @@ img.apple {
     height: fit-content;
 
     @media screen and (max-width:768px){
-        margin-left: -180vw;
-        max-width: 330px;
+        margin-left: -40vw;
+        max-width: 550px;
     }
 }
 

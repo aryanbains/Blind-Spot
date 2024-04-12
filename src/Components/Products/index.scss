@@ -22,6 +22,10 @@
         color: azure;
         margin-left: 2vw;
         margin-top: 40vh;
+
+        @media screen and (max-width:768px) {
+            margin-top: 25vh;
+        }
     }
 
     p{
@@ -32,6 +36,10 @@
         margin-left: 2vw;
         width: 90%;
         font-size: 20px;
+
+        @media screen and (max-width:768px) {
+            font-size: 15px;
+        }
     }
     
 
@@ -48,9 +56,10 @@
         border: 1px solid rgba( 255, 255, 255, 0.18 );
 
         @media screen and (max-width:768px) {
+            margin-left: 2vw;
             margin-top: -10vh;
-            width: 275px;
-            height: 350px;
+            width: 375px;
+            height: 390px;
             margin-bottom: 13vh;
         }
 
@@ -61,7 +70,7 @@
             margin-left: -0.1vw;
 
             @media screen and (max-width:768px) {
-                width: 270px;
+                width: 375px;
             }
         }
     }
