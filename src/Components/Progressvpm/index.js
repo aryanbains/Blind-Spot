@@ -4,7 +4,7 @@ import CircularProgress from '@mui/material/CircularProgress';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
 
-function CircularProgressWithLabelbpm(props) {
+function CircularProgressWithLabelvpm(props) {
   return (
     <Box sx={{ position: 'relative', display: 'inline-flex' }}>
       <CircularProgress size={150} variant="determinate" {...props} style={{ color: 'purple' }} />
@@ -26,18 +26,18 @@ function CircularProgressWithLabelbpm(props) {
           color="text.secondary"
           style={{ color: 'white', fontWeight: 'bold' , fontSize:'24px'}}
         >
-          {`${Math.round(props.value)} bpm`}
+          {`${Math.round(props.value)} vpm`}
         </Typography>
       </Box>
     </Box>
   );
 }
 
-CircularProgressWithLabelbpm.propTypes = {
+CircularProgressWithLabelvpm.propTypes = {
   value: PropTypes.number.isRequired,
 };
 
-export default function CircularWithValueLabelbpm() {
+export default function CircularWithValueLabelvpm() {
   const [progress, setProgress] = React.useState(10);
 
   React.useEffect(() => {
@@ -51,7 +51,7 @@ export default function CircularWithValueLabelbpm() {
 
   return (
     <div style={{ marginTop:'7vh' , marginLeft:'8vh' , height: '100vh' }}>
-      <CircularProgressWithLabelbpm value={progress} />
+      <CircularProgressWithLabelvpm value={progress} />
     </div>
   );
 }

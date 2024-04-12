@@ -25,6 +25,12 @@
         border: 1px solid rgba( 255, 255, 255, 0.18 );
         justify-content: center;
         align-items: center;
+
+        @media screen and (max-width:768px){
+           margin-top: 34vh;
+           width: 290px;
+           margin-left: 5vw;
+        }
     }
 
     .emgcont{
@@ -57,10 +63,21 @@
         justify-content: center;
         align-items: center;
 
+        @media screen and (max-width:768px) {
+            margin-left: 3vw;
+            width: 310px;
+            margin-top: -8vh;
+        }
+
         .user{
             margin-left: 8vw;
             height: 200px;
             margin-top: 5vh;
+
+            @media screen and (max-width:768px) {
+                height: 150px;
+                margin-left: 20vw;
+            }
         }
 
         .name{
@@ -69,6 +86,10 @@
             position: absolute;
             margin-top: 1vh;
             margin-left: 8.5vw;
+
+            @media screen and (max-width:768px){
+                margin-left: 21.5vw;
+            }
         }
 
         .age-sex{
@@ -77,6 +98,10 @@
             position: absolute;
             margin-top: 4vh;
             margin-left: 11vw;
+            
+            @media screen and (max-width:768px){
+                margin-left: 29.5vw;
+            }
         }
 
         .mobile{
@@ -84,6 +109,11 @@
             position: absolute;
             margin-top: 44.5vh;
             margin-left: -18vw;
+
+            @media screen and (max-width:768px){
+                margin-left: -45.5vw;
+                margin-top: 30vh;
+            }
         }
 
         .Address{
@@ -91,12 +121,22 @@
             position: absolute;
             margin-top: 50vh;
             margin-left: -18.2vw;
+
+            @media screen and (max-width:768px){
+                margin-left: -46vw;
+                margin-top: 33vh;
+            }
         }
 
         .mno{
             font-size: 13px;
             margin-left: 5vw;
             margin-top:10vh;
+
+            @media screen and (max-width:768px){
+                margin-left: 14vw;
+                margin-top: 8.5vh;
+            }
         }
 
         .home{
@@ -106,12 +146,22 @@
             margin-left: 5vw;
             margin-top: 3.2vh;
             width: 30%;
+
+            @media screen and (max-width:768px){
+                margin-left: 14.5vw;
+                margin-top: 1.8vh;
+            }
         }
 
         .pno{
             font-size: 13px;
             margin-left: 18vw;
             margin-top: -2.5vh;
+
+            @media screen and (max-width:768px){
+                margin-left: 47vw;
+                margin-top: -1.8vh;
+            }
         }
 
 
@@ -120,6 +170,11 @@
             position: absolute;
             margin-top: 44.5vh;
             margin-left: -5vw;
+
+            @media screen and (max-width:768px){
+                margin-left: -11vw;
+                margin-top: 30vh;
+            }
         }
 }
 
@@ -134,6 +189,10 @@
     flex-wrap: wrap;
     margin-top: 20vh;
     margin-left: 35vw;
+    
+    @media screen and (max-width:768px) {
+        display: none;
+    }
 }
 
 .box{

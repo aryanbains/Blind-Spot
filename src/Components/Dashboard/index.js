@@ -3,6 +3,7 @@ import CircularWithValueLabelhumid from '../ProgressHumid';
 import CircularWithValueLabel from '../Progresskm';
 import CircularWithValueLabeltemp from '../Progresstemp';
 import CircularWithValueLabelbpm from '../Progressbpm';
+import CircularWithValueLabelvpm from '../Progressvpm';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faUser , faMobile , faMailBulk , faHouseChimney } from '@fortawesome/free-solid-svg-icons'
 import Navbar from '../Navbar';
@@ -20,7 +21,7 @@ const Dashboard = () => {
             <FontAwesomeIcon className="phone" icon={faMailBulk} color='#ababab'></FontAwesomeIcon>
             <FontAwesomeIcon className="Address" icon={faHouseChimney} color='#ababab'></FontAwesomeIcon>
             <p className='mno'>9560X XXXXX</p>
-            <p className='pno'>example@gmail.com</p>
+            <p className='pno'>abc@gmail.com</p>
             <p className='home'>New Delhi , Delhi</p>
             </div>
         </div>
@@ -38,7 +39,9 @@ const Dashboard = () => {
             <div className='box'>
                 <CircularWithValueLabelbpm></CircularWithValueLabelbpm>
             </div>
-            <div className='box'></div>
+            <div className='box'>
+                <CircularWithValueLabelvpm></CircularWithValueLabelvpm>
+            </div>
             <div className='box'></div>
         </div>
         <Footer></Footer>
