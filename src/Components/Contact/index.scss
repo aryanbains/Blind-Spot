@@ -3,12 +3,6 @@
 .contact-page{
     display: flexbox;
     flex-direction: column;
-
-
-    @media screen and (max-width:768px) {
-        display: flexbox;
-        flex-direction: row;
-        height: 0vh;
     }
 
     .text-zone{
@@ -157,8 +151,9 @@ textarea{
     color: #fff;
     font-family: Arimo;
 
-    @media screen and (max-width:766px){
+    @media screen and (max-width:768px){
         display: none;
+        opacity: 0;
     }
 }
 
@@ -167,9 +162,9 @@ textarea{
     .text-zone {
     position: absolute;
     text-align: left;
-    margin-top: -95dvh;
-    width: 80%; 
-    margin-left: auto;
+    margin-top: -10vh;
+    width: 150%; 
+    margin-left: -3vw;
     margin-right: auto;
     max-width: none; 
     left: 15%; 
@@ -200,5 +195,4 @@ textarea{
         margin-top: 10px; /* Added margin for smaller screens */
         text-align: center; /* Centered text for smaller screens */
     }
-}
 }
