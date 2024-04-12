@@ -22,7 +22,6 @@ const Navbar = () => {
   
   <div class="nav-links">
         <NavLink className="navlink" exact="true" activeclassName="active" to="/">Home</NavLink>   
-        <NavLink className="navlink" exact="true" activeclassName="active" to="/about">About</NavLink>
         <NavLink className="navlink" exact="true" activeclassName="active" to="/product">Products</NavLink>      
         <NavLink className="navlink" exact="true" activeclassName="active" to="/contact">Contact</NavLink>
         <NavLink exact="true" activeclassName="active" to="/login"><FontAwesomeIcon className="navlink" icon={faUser} color='#f0ffff'></FontAwesomeIcon></NavLink>   
