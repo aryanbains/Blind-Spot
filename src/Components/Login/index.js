@@ -1,4 +1,5 @@
 import './index.scss'
+import { NavLink } from 'react-router-dom';
 import Navbar from '../Navbar'
 import Footer from '../Footer'
 import Apple from '../../Assets/Images/Apple logo.png'
@@ -57,7 +58,7 @@ const Login = () => {
                                 required
                             ></input>
                         </div>
-                        <input type="submit" class="my-form__button" value="Login"></input>
+                        <NavLink exact="true" activeclassName="active" to="/dashboard"><input type="submit" class="my-form__button" value="Login"></input></NavLink>
                         <div class="my-form__actions">
                             <div class="my-form__row">
                                 <span>Did you forget your password?</span>

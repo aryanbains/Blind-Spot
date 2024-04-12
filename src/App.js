@@ -4,6 +4,7 @@ import Home from '../src/Components/Home'
 import Contact from '../src/Components/Contact'
 import About from '../src/Components/About'
 import Login from '../src/Components/Login'
+import Dashboard from './Components/Dashboard'
 import { Route , Routes }  from 'react-router-dom'
 import './App.css';
 import { useEffect } from 'react';
@@ -46,11 +47,12 @@ function App() {
     <div className="App">
       <Routes>
           <Route path="/">
-          <Route path='home'  index element={<Home/>}></Route>
+          <Route index element={<Home/>}></Route>
           <Route path='about' index element={<About/>}></Route>
           <Route path='contact' index element={<Contact/>}></Route>
           <Route path='product' index element={<Product/>}></Route>
           <Route path='login' index element={<Login/>}></Route>
+          <Route path='dashboard' index element={<Dashboard/>}></Route>
           </Route>
       </Routes>
       <div className='bg2' id='vanta1'></div>
