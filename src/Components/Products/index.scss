@@ -12,6 +12,11 @@
         display: inline-block;
     }    
 
+    img{
+        width: 100px;
+        border-radius: 20px;
+    }
+
     h1{
         font-family: Arimo;
         color: azure;
@@ -20,7 +25,9 @@
     }
 
     p{
+        position: relative;
         color: azure;
+        margin-top: 3vh;
         font-family: Arimo;
         margin-left: 2vw;
         width: 90%;
@@ -31,8 +38,8 @@
     .box{
         flex: 1;
         margin-right: 2rem;
-        width: 400px;
-        height: 500px;
+        width: 401px;
+        height: 495px;
         background: rgba( 255, 255, 255, 0.1 );
         box-shadow: 0 8px 32px 0 rgba(179, 16, 255, 0.144);
         backdrop-filter: blur( 3px );
@@ -48,7 +55,10 @@
         }
 
         img{
-            width: 400px;
+            position: absolute;
+            width: 401px;
+            margin-top: -0.5vh;
+            margin-left: -0.1vw;
 
             @media screen and (max-width:768px) {
                 width: 270px;

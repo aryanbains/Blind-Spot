@@ -1,6 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Arimo:ital,wght@0,400..700;1,400..700&family=Questrial&display=swap');
+
+
 .dash-main{
     position: absolute;
+
+    .container{
+        display: inline-block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .address{
+        margin-left: 1vw;
+        margin-top: 50vh;
+        z-index: 1;
+        position: absolute;
+        width: 180px;
+        height: 150px;
+        background: rgba( 255, 255, 255, 0.1 );
+        box-shadow: 0 8px 32px 0 rgba(179, 16, 255, 0.144);
+        backdrop-filter: blur( 3px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 40px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        justify-content: center;
+        align-items: center;
+    }
+
+    .emgcont{
+        margin-left: 15vw;
+        margin-top: 50vh;
+        z-index: 1;
+        position: absolute;
+        width: 180px;
+        height: 150px;
+        background: rgba( 255, 255, 255, 0.1 );
+        box-shadow: 0 8px 32px 0 rgba(179, 16, 255, 0.144);
+        backdrop-filter: blur( 3px );
+        -webkit-backdrop-filter: blur( 12.5px );
+        border-radius: 40px;
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        justify-content: center;
+        align-items: center;
+    }
+
 .div-p{
+        z-index: -1;
         width: 400px;
         height: 500px;
         background: rgba( 255, 255, 255, 0.1 );
@@ -9,6 +54,56 @@
         -webkit-backdrop-filter: blur( 12.5px );
         border-radius: 40px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );
+        justify-content: center;
+        align-items: center;
+
+        .user{
+            margin-left: 8vw;
+            height: 200px;
+            margin-top: 5vh;
+        }
+
+        .name{
+            font-family: Arimo;
+            font-weight: 500;
+            position: absolute;
+            margin-top: 1vh;
+            margin-left: 8.5vw;
+        }
+
+        .age-sex{
+            font-family: Arimo;
+            font-weight: 500;
+            position: absolute;
+            margin-top: 4vh;
+            margin-left: 11vw;
+        }
+
+        .mobile{
+            height: 20px;
+            position: absolute;
+            margin-top: 46vh;
+            margin-left: -15vw;
+        }
+
+        .mno{
+            font-size: 13px;
+            margin-left: 10vw;
+            margin-top:10vh;
+        }
+
+        .pno{
+            margin-left: 10vw;
+            margin-top:2.2vh;
+        }
+
+
+        .phone{
+            height: 19px;
+            position: absolute;
+            margin-top: 51vh;
+            margin-left: -15vw;
+        }
 }
 
 .container2{
