@@ -12,11 +12,11 @@
 
     .address{
         margin-left: 1vw;
-        margin-top: 50vh;
+        margin-top: 55vh;
         z-index: 1;
         position: absolute;
-        width: 180px;
-        height: 150px;
+        width: 370px;
+        height: 100px;
         background: rgba( 255, 255, 255, 0.1 );
         box-shadow: 0 8px 32px 0 rgba(179, 16, 255, 0.144);
         backdrop-filter: blur( 3px );
@@ -80,30 +80,53 @@
         }
 
         .mobile{
-            height: 20px;
+            height: 17px;
             position: absolute;
-            margin-top: 46vh;
-            margin-left: -15vw;
+            margin-top: 44.5vh;
+            margin-left: -18vw;
+        }
+
+        .Address{
+            height: 17px;
+            position: absolute;
+            margin-top: 50vh;
+            margin-left: -18.2vw;
         }
 
         .mno{
             font-size: 13px;
-            margin-left: 10vw;
+            margin-left: 5vw;
             margin-top:10vh;
         }
 
+        .home{
+            font-weight: 600;
+            font-family: Arimo;
+            font-size: 13px;
+            margin-left: 5vw;
+            margin-top: 3.2vh;
+            width: 30%;
+        }
+
         .pno{
-            margin-left: 10vw;
-            margin-top:2.2vh;
+            font-size: 13px;
+            margin-left: 18vw;
+            margin-top: -2.5vh;
         }
 
 
         .phone{
-            height: 19px;
+            height: 16px;
             position: absolute;
-            margin-top: 51vh;
-            margin-left: -15vw;
+            margin-top: 44.5vh;
+            margin-left: -5vw;
         }
+}
+
+.home{
+    font-size: 6vw;
+    margin-left: 3vw;
+    margin-top: 3vh;
 }
 
 .container2{
