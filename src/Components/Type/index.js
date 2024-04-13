@@ -12,7 +12,7 @@ const Type = () => {
     data-aos-easing="ease-in-out" className="TypeEffect">
       <Typewriter 
         options={{
-          strings: ["Innovation", "Adaptable", "Ingenious"],
+          strings: ["Wear", "Share", "Care"],
           autoStart: true,
           loop: true,
           delay: 70,

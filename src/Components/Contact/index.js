@@ -7,7 +7,8 @@ const Contact = () => {
         <>
         <Navbar></Navbar>
         <div className='container contact-page'>
-            <div className='text-zone'>
+            <div data-aos="fade-up" data-aos-delay="30" data-aos-duration="3000"
+        data-aos-easing="ease-in-out" className='text-zone' >
                 <h1 className='contact'>Contact Us
             </h1>
             <div className='contact-form'>

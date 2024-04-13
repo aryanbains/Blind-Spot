@@ -17,17 +17,23 @@ const Product = () => {
             <div className='box'>
                 <img src={p1}></img>
                 <h1>Basic Product</h1>
-                <p>Designed for fundamental safety and health monitering. Includes ultrasonic sensor for obstacle detection, BMP sensor for fall detection, and heart rate sensor for pulse monitering.</p>
+                <p>Designed for fundamental safety and health monitering. Includes ultrasonic sensor for obstacle detection, BMP sensor for fall detection, and heart rate sensor for pulse monitering.
+                    <br></br> <b>Price : Rs. 850</b>             
+                </p>
             </div>
             <div className='box'>
             <img src={p2}></img>
             <h1>Advanced Product</h1>
-                <p>Offers comprehensive safety and environmental monitering capabilities. Includes additional features such as camera for object.</p>
+                <p>Offers comprehensive safety and environmental monitering capabilities. Includes additional features such as camera for object.
+                <br></br> <br></br> <b>Price : Rs. 1800</b>             
+                </p>
             </div>
             <div className='box'>
             <img src={p3}></img>
             <h1>Super Product</h1>
-                <p>Tailored specifically for individuals who are blind and deaf. Includes features like camera for real time object character recognition</p>
+                <p>Tailored specifically for individuals who are blind and deaf. Includes features like camera for real time object character recognition
+                <br></br> <br></br> <b>Price : Rs. 2500</b>             
+                </p>
             </div>
         </div>
         <Footer></Footer>

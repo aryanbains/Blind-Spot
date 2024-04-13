@@ -33,6 +33,30 @@
         }
     }
 
+    .p1{
+        border-radius: 20px;
+        height: 100px;
+        width: 200px;
+        font-family: Arimo;
+        font-weight: 700;
+
+        @media screen and (max-width:768px) {
+            width: 150px;            
+        }
+    }
+
+    .pinf1{
+        font-family: Arimo;
+        font-weight: 700;
+        margin-top: -10vh;
+        margin-left: 17vw;
+
+        @media screen and (max-width:768px) {
+            margin-left: 45vw;
+            margin-top: -7vh;
+        }
+    }
+
     .emgcont{
         margin-left: 15vw;
         margin-top: 50vh;
@@ -197,7 +221,13 @@
     }
 }
 
-.box{
+.box{   
+        line-height: -1px;
+        letter-spacing: -1px;
+        font-size: 50px;
+        font-weight: 600;
+        font-family: Arimo;
+        color: antiquewhite;
         align-items: center;
         justify-content: center;
         width: 270px;
@@ -211,9 +241,16 @@
         border-radius: 40px;
         border: 1px solid rgba( 255, 255, 255, 0.18 );
 
+
+
         @media screen and (max-width:768px) {
             width: 300px;
             height: 270px;
+        }
+
+        .vital{
+            margin-top: 13vh;
+            margin-left: 2vw;
         }
 }
 }

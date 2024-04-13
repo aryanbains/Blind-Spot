@@ -13,7 +13,7 @@
     -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-    width: 60%;
+    width: 150%;
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
@@ -148,12 +148,13 @@ textarea{
     font-size: 20px;
     margin-left: 40vw;
     position: relative;
+    opacity: 0;
     color: #fff;
     font-family: Arimo;
 
     @media screen and (max-width:768px){
         display: none;
-        opacity: 0;
+        opacity: 0; 
     }
 }
 

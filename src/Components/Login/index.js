@@ -9,8 +9,10 @@ const Login = () => {
     return(
         <>
         <Navbar></Navbar>
-        <h1 className='Welcome'>Welcome Back 👋</h1>
-        <div class="login-wrapper">
+        <h1 data-aos="fade-right" data-aos-delay="30" data-aos-duration="3000"
+        data-aos-easing="ease-in-out" className='Welcome'>Welcome Back 👋</h1>
+        <div data-aos="fade-left" data-aos-delay="30" data-aos-duration="3000"
+        data-aos-easing="ease-in-out" class="login-wrapper">
             <div class="login-side">
                 <div class="my-form__wrapper">
                     <form class="my-form">
