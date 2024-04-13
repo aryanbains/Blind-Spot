@@ -20,7 +20,8 @@ import Footer from '../Footer'
 
 const Dashboard = () => {
     return(
-        <div className='dash-main'>
+        <div  data-aos="fade-up" data-aos-delay="50" data-aos-duration="3000"
+        data-aos-easing="ease-in-out" className='dash-main'>
         <Navbar></Navbar>
         <div className="container">
             <div className="address">

@@ -12,13 +12,13 @@ const Product = () => {
     return(
         <>
         <Navbar></Navbar>
-        <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="1000"
+        <div data-aos="fade-up" data-aos-delay="50" data-aos-duration="3000"
         data-aos-easing="ease-in-out" className='container'>
             <div className='box'>
                 <img src={p1}></img>
                 <h1>Basic Product</h1>
-                <p>Designed for fundamental safety and health monitering. Includes ultrasonic sensor for obstacle detection, BMP sensor for fall detection, and heart rate sensor for pulse monitering.
-                    <br></br> <b>Price : Rs. 850</b>             
+                <p>Designed for fundamental safety and health monitering. Includes ultrasonic sensor for obstacle detection, BMP sensor for fall detection.
+                    <br></br> <br></br> <b>Price : Rs. 850</b>             
                 </p>
             </div>
             <div className='box'>
