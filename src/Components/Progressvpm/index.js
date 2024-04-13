@@ -26,7 +26,7 @@ function CircularProgressWithLabelvpm(props) {
           color="text.secondary"
           style={{ color: 'white', fontWeight: 'bold' , fontSize:'24px'}}
         >
-          {`${Math.round(props.value)} vpm`}
+          {`${Math.round(props.value)} bmp`}
         </Typography>
       </Box>
     </Box>
